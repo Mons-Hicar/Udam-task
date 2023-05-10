@@ -22,7 +22,7 @@ export default function Header() {
                 
                 <div className="nav-text ms-auto d-flex align-items-center">
                     <small className="ms-4"><Link to="/">Home</Link></small>
-                    <small className="ms-4">About</small>
+                    <small className="ms-4"><Link to="/About">About</Link></small>
                     <small className="ms-4">Blogs</small>
                     <small className="ms-4">Contact</small>
                     <div className="ms-3 d-flex regist">
@@ -43,7 +43,7 @@ export default function Header() {
     <div className="container-fluid bg-white sticky-top">
         <div className="container">
             <nav className="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
-            <a href="index.html">
+            <a href="/">
                     {/* <h2 className="text-white fw-bold m-0">GrowMark</h2> */}
                     <img src={logo} alt='' />
                 </a>
@@ -56,7 +56,7 @@ export default function Header() {
                         <a href="index.html" className="nav-item nav-link active"><Link to="/Study">Study Abroad</Link></a>
                         <a href="about.html" className="nav-item nav-link"><Link to="/Univ">University</Link></a>
                         <a href="service.html" className="nav-item nav-link"><Link to="/Schol">Scholarships</Link></a>
-                        <a href="project.html" className="nav-item nav-link">Courses Guid</a>
+                        <a href="project.html" className="nav-item nav-link"><Link to="/Course">Courses Guid</Link></a>
                         <div className="nav-item dropdown">
                             <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div className="dropdown-menu bg-light rounded-0 rounded-bottom m-0">

@@ -1,9 +1,12 @@
 import '../App.css';
 import React from 'react'
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default function About() {
   return (
     <div>
+        <Header/>
       <div className="container-xxl about my-5">
         <div className="container">
             <div className="row g-0">
@@ -38,6 +41,7 @@ export default function About() {
             </div>
         </div>
     </div>
+    <Footer/>
     </div>
   )
 }

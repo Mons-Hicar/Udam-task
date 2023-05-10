@@ -1,27 +1,19 @@
-import React from 'react'
-import Header from "./Header";
-import Footer from "./Footer";
 
-export class Test {
-  constructor(props) {
-    
-   
 
-    this.state = {
-      name: "Mons"
-    };
+import React, { Component } from 'react'
+
+export default class Test extends Component {
+  render() {
     return (
-      <div>
-        <Header />
-        <h1 style={{ textAlign: "center" }}>{this.state.name}Habibi welcom to react</h1>
-        <Footer />
-      </div>
-    );
+      <div> <div>
+         
+         <h1 >Habibi welcom to react</h1>
+         
+      </div></div>
+    )
   }
 }
 
-
-export default Test
 
 
 
